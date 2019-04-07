@@ -40,3 +40,6 @@ class FeedbackData(models.Model):
     rating = models.IntegerField()
     date = models.DateField()
     feedback = models.TextField(max_length=500)
+
+class Emp(models.Model):
+    ename = models.CharField(max_length = 20)
